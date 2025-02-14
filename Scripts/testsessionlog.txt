@@ -1,0 +1,278 @@
+
+[2025-02-12 19-40:1739389221]
+User Asked: What Linux Command shows my working directory
+AI Raw Output: ```bash
+pwd
+```
+Cleaned Command: pwd
+Command Ouput:
+/home/mlserver/BC/Scripts
+
+----------------------------------------
+
+[2025-02-12 19-46:1739389605]
+User Asked: What Linux Command shows my ip address
+AI Raw Output: ```bash
+ip addr show | grep inet | awk '{print $2}' | cut -
+Cleaned Command: ip addr show | grep inet | awk '{print $2}' | cut -
+Command Ouput:
+Command not allowed for Security Reasons
+----------------------------------------
+
+[2025-02-12 19-56:1739390183]
+User Asked: What Linux Command Shows my active Directory
+AI Raw Output: ```bash
+pwd
+```
+Cleaned Command: pwd
+Command Ouput:
+/home/mlserver/BC/Scripts
+
+----------------------------------------
+
+[2025-02-12 20-03:1739390639]
+User Asked: What Linux Command Shows my current ip address
+AI Raw Output: ```bash
+ifconfig | grep 'inet addr:'| grep -v '127.
+Cleaned Command: ifconfig | grep 'inet addr:'| grep -v '127.
+Command Ouput:
+/bin/sh: 1: Syntax error: Unterminated quoted string
+
+----------------------------------------
+
+[2025-02-12 20-05:1739390726]
+User Asked: What Linux Command Shows my current ip address
+AI Raw Output: ```bash
+ifconfig | grep 'inet addr:'| grep -v '127.
+Cleaned Command: ifconfig | grep 'inet addr:'| grep -v '127.
+Command Ouput:
+/bin/sh: 1: Syntax error: Unterminated quoted string
+
+----------------------------------------
+
+[2025-02-12 20-14:1739391288]
+User Asked: What Linux Command Shows my current ip address
+AI Raw Output: ```bash
+ifconfig | grep 'inet addr:'| grep -v '127.
+Cleaned Command: ifconfig
+Command Ouput:
+eno1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.19.26.215  netmask 255.255.254.0  broadcast 172.19.27.255
+        inet6 fe80::3eec:efff:fef2:f808  prefixlen 64  scopeid 0x20<link>
+        ether 3c:ec:ef:f2:f8:08  txqueuelen 1000  (Ethernet)
+        RX packets 174251499  bytes 223443462372 (223.4 GB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 23008731  bytes 2379251905 (2.3 GB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device memory 0xc3320000-c333ffff  
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 191556  bytes 309828830 (309.8 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 191556  bytes 309828830 (309.8 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+----------------------------------------
+
+[2025-02-12 20-20:1739391635]
+User Asked: What Linux Command runs a nmap scan on ip subnet 172.19.26.215
+AI Raw Output: ```bash
+nmap -sn 172.19.26.21
+Cleaned Command: nmap -sn 172.19.26.21
+Command Ouput:
+Command not allowed for Security Reasons
+----------------------------------------
+
+[2025-02-12 20-21:1739391707]
+User Asked: What Linux Command runs a nmap scan on ip subnet 172.19.26.215
+AI Raw Output: ```bash
+nmap -sn 172.19.26.21
+Cleaned Command: nmap -sn 172.19.26.21
+Command Ouput:
+/bin/sh: 1: nmap: not found
+
+----------------------------------------
+
+[2025-02-12 20-24:1739391845]
+User Asked: What Linux Command runs a nmap scan on ip subnet 172.19.26.215
+AI Raw Output: The `nmap` (Network Mapper) is a free and open source tool for network discovery
+Cleaned Command: The `nmap` (Network Mapper) is a free and open source tool for network discovery
+Command Ouput:
+Command not allowed for Security Reasons
+----------------------------------------
+
+[2025-02-12 20-26:1739391980]
+User Asked: What Linux Command runs a nmap scan on ip subnet 172.19.26.215
+AI Raw Output: ```bash
+nmap -sS 172.19.26.2
+Cleaned Command: nmap -sS 172.19.26.2
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-02-12 20:26 UTC
+Nmap scan report for 172.19.26.2
+Host is up (0.00036s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: 00:10:7F:94:E3:34 (Crestron Electronics)
+
+Nmap done: 1 IP address (1 host up) scanned in 4.09 seconds
+
+----------------------------------------
+
+[2025-02-13 02-00:1739412005]
+User Asked: What Linux Command runs a nmap scan on ip subnet 172.19.26.215
+AI Raw Output: ```bash
+nmap -sS 172.19.26.2
+Cleaned Command: nmap -sS 172.19.26.2
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-02-13 02:00 UTC
+Nmap scan report for 172.19.26.2
+Host is up (0.00034s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: 00:10:7F:94:E3:34 (Crestron Electronics)
+
+Nmap done: 1 IP address (1 host up) scanned in 4.09 seconds
+
+----------------------------------------
+
+[2025-02-13 02-01:1739412117]
+User Asked: What Linux Command runs a nmap scan on ip subnet 172.19.26.215
+AI Raw Output: ```bash
+nmap -sS 172.19.26.2
+Cleaned Command: nmap -sS 172.19.26.2
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-02-13 02:01 UTC
+Nmap scan report for 172.19.26.2
+Host is up (0.00036s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: 00:10:7F:94:E3:34 (Crestron Electronics)
+
+Nmap done: 1 IP address (1 host up) scanned in 4.13 seconds
+
+----------------------------------------
+
+[2025-02-13 02-04:1739412266]
+User Asked: What Linux Command runs a nmap scan on ip subnet 172.19.26.215
+AI Raw Output: ```bash
+nmap -sS 172.19.26.2
+Cleaned Command: nmap -sS 172.19.26.2
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-02-13 02:04 UTC
+Nmap scan report for 172.19.26.2
+Host is up (0.00035s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: 00:10:7F:94:E3:34 (Crestron Electronics)
+
+Nmap done: 1 IP address (1 host up) scanned in 4.11 seconds
+
+----------------------------------------
+
+[2025-02-13 02-06:1739412404]
+User Asked: What Linux Command runs a nmap scan on ip subnet 172.19.26.215
+AI Raw Output: ```bash
+nmap -sS 172.19.26.2
+Cleaned Command: nmap -sS 172.19.26.2
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-02-13 02:06 UTC
+Nmap scan report for 172.19.26.2
+Host is up (0.00036s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: 00:10:7F:94:E3:34 (Crestron Electronics)
+
+Nmap done: 1 IP address (1 host up) scanned in 4.08 seconds
+
+----------------------------------------
+
+[2025-02-13 02-27:1739413674]
+User Asked: Give me the command for listing a directory
+AI Raw Output: ```bash
+ls
+```
+Cleaned Command: ls
+Command Ouput:
+MainMenu.py
+Main.py
+__pycache__
+system_prompt.txt
+testsessionlog.txt
+
+----------------------------------------
+
+[2025-02-13 02-29:1739413752]
+User Asked: Please give me the command to ping google.com
+AI Raw Output: ```bash
+ping google.com
+```
+Cleaned Command: ping google.com
+Command Ouput:
+Command not allowed for Security Reasons
+----------------------------------------
+
+[2025-02-13 02-32:1739413965]
+User Asked: Command to figure out what user you are.
+AI Raw Output: ```bash
+whoami
+id
+hostname
+uname -a
+cat /etc/os
+Cleaned Command: whoami id hostname uname -a cat /etc/os
+Command Ouput:
+whoami: invalid option -- 'a'
+Try 'whoami --help' for more information.
+
+----------------------------------------
+
+[2025-02-14 17-05:1739552748]
+User Asked: What's the command to print my working directory
+AI Raw Output: The command to print your current working directory is `pwd`. It stands for "print working directory
+Cleaned Command: The command to print your current working directory is `pwd`. It stands for "print working directory
+Command Ouput:
+Command not allowed for Security Reasons
+----------------------------------------
+
+[2025-02-14 17-06:1739552808]
+User Asked: how do i find my ip address 
+AI Raw Output: ```bash
+ip addr show | grep inet | awk '{print $2}' | cut -
+Cleaned Command: ip addr show
+Command Ouput:
+Command not allowed for Security Reasons
+----------------------------------------
+
+[2025-02-14 17-08:1739552883]
+User Asked: whats the command to lists all things in a directory
+AI Raw Output: ```bash
+ls
+```
+Cleaned Command: ls
+Command Ouput:
+MainMenu.py
+Main.py
+__pycache__
+system_prompt.txt
+testsessionlog.txt
+
+----------------------------------------
+
+[2025-02-14 18-02:1739556131]
+User Asked: whats the command to print my working directory
+AI Raw Output: ```bash
+pwd
+```
+Cleaned Command: pwd
+Command Ouput:
+('/home/mlserver/BC/Scripts\n', 'Executed')
+----------------------------------------
