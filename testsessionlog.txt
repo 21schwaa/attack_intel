@@ -1,0 +1,1256 @@
+
+[2025-02-12 19-40:1739389221]
+User Asked: What Linux Command shows my working directory
+AI Raw Output: ```bash
+pwd
+```
+Cleaned Command: pwd
+Command Ouput:
+/home/mlserver/BC/Scripts
+
+----------------------------------------
+
+[2025-02-12 19-46:1739389605]
+User Asked: What Linux Command shows my ip address
+AI Raw Output: ```bash
+ip addr show | grep inet | awk '{print $2}' | cut -
+Cleaned Command: ip addr show | grep inet | awk '{print $2}' | cut -
+Command Ouput:
+Command not allowed for Security Reasons
+----------------------------------------
+
+[2025-02-12 19-56:1739390183]
+User Asked: What Linux Command Shows my active Directory
+AI Raw Output: ```bash
+pwd
+```
+Cleaned Command: pwd
+Command Ouput:
+/home/mlserver/BC/Scripts
+
+----------------------------------------
+
+[2025-02-12 20-03:1739390639]
+User Asked: What Linux Command Shows my current ip address
+AI Raw Output: ```bash
+ifconfig | grep 'inet addr:'| grep -v '127.
+Cleaned Command: ifconfig | grep 'inet addr:'| grep -v '127.
+Command Ouput:
+/bin/sh: 1: Syntax error: Unterminated quoted string
+
+----------------------------------------
+
+[2025-02-12 20-05:1739390726]
+User Asked: What Linux Command Shows my current ip address
+AI Raw Output: ```bash
+ifconfig | grep 'inet addr:'| grep -v '127.
+Cleaned Command: ifconfig | grep 'inet addr:'| grep -v '127.
+Command Ouput:
+/bin/sh: 1: Syntax error: Unterminated quoted string
+
+----------------------------------------
+
+[2025-02-12 20-14:1739391288]
+User Asked: What Linux Command Shows my current ip address
+AI Raw Output: ```bash
+ifconfig | grep 'inet addr:'| grep -v '127.
+Cleaned Command: ifconfig
+Command Ouput:
+eno1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.19.26.215  netmask 255.255.254.0  broadcast 172.19.27.255
+        inet6 fe80::3eec:efff:fef2:f808  prefixlen 64  scopeid 0x20<link>
+        ether 3c:ec:ef:f2:f8:08  txqueuelen 1000  (Ethernet)
+        RX packets 174251499  bytes 223443462372 (223.4 GB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 23008731  bytes 2379251905 (2.3 GB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device memory 0xc3320000-c333ffff  
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 191556  bytes 309828830 (309.8 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 191556  bytes 309828830 (309.8 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+----------------------------------------
+
+[2025-02-12 20-20:1739391635]
+User Asked: What Linux Command runs a nmap scan on ip subnet 172.19.26.215
+AI Raw Output: ```bash
+nmap -sn 172.19.26.21
+Cleaned Command: nmap -sn 172.19.26.21
+Command Ouput:
+Command not allowed for Security Reasons
+----------------------------------------
+
+[2025-02-12 20-21:1739391707]
+User Asked: What Linux Command runs a nmap scan on ip subnet 172.19.26.215
+AI Raw Output: ```bash
+nmap -sn 172.19.26.21
+Cleaned Command: nmap -sn 172.19.26.21
+Command Ouput:
+/bin/sh: 1: nmap: not found
+
+----------------------------------------
+
+[2025-02-12 20-24:1739391845]
+User Asked: What Linux Command runs a nmap scan on ip subnet 172.19.26.215
+AI Raw Output: The `nmap` (Network Mapper) is a free and open source tool for network discovery
+Cleaned Command: The `nmap` (Network Mapper) is a free and open source tool for network discovery
+Command Ouput:
+Command not allowed for Security Reasons
+----------------------------------------
+
+[2025-02-12 20-26:1739391980]
+User Asked: What Linux Command runs a nmap scan on ip subnet 172.19.26.215
+AI Raw Output: ```bash
+nmap -sS 172.19.26.2
+Cleaned Command: nmap -sS 172.19.26.2
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-02-12 20:26 UTC
+Nmap scan report for 172.19.26.2
+Host is up (0.00036s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: 00:10:7F:94:E3:34 (Crestron Electronics)
+
+Nmap done: 1 IP address (1 host up) scanned in 4.09 seconds
+
+----------------------------------------
+
+[2025-02-13 02-00:1739412005]
+User Asked: What Linux Command runs a nmap scan on ip subnet 172.19.26.215
+AI Raw Output: ```bash
+nmap -sS 172.19.26.2
+Cleaned Command: nmap -sS 172.19.26.2
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-02-13 02:00 UTC
+Nmap scan report for 172.19.26.2
+Host is up (0.00034s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: 00:10:7F:94:E3:34 (Crestron Electronics)
+
+Nmap done: 1 IP address (1 host up) scanned in 4.09 seconds
+
+----------------------------------------
+
+[2025-02-13 02-01:1739412117]
+User Asked: What Linux Command runs a nmap scan on ip subnet 172.19.26.215
+AI Raw Output: ```bash
+nmap -sS 172.19.26.2
+Cleaned Command: nmap -sS 172.19.26.2
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-02-13 02:01 UTC
+Nmap scan report for 172.19.26.2
+Host is up (0.00036s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: 00:10:7F:94:E3:34 (Crestron Electronics)
+
+Nmap done: 1 IP address (1 host up) scanned in 4.13 seconds
+
+----------------------------------------
+
+[2025-02-13 02-04:1739412266]
+User Asked: What Linux Command runs a nmap scan on ip subnet 172.19.26.215
+AI Raw Output: ```bash
+nmap -sS 172.19.26.2
+Cleaned Command: nmap -sS 172.19.26.2
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-02-13 02:04 UTC
+Nmap scan report for 172.19.26.2
+Host is up (0.00035s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: 00:10:7F:94:E3:34 (Crestron Electronics)
+
+Nmap done: 1 IP address (1 host up) scanned in 4.11 seconds
+
+----------------------------------------
+
+[2025-02-13 02-06:1739412404]
+User Asked: What Linux Command runs a nmap scan on ip subnet 172.19.26.215
+AI Raw Output: ```bash
+nmap -sS 172.19.26.2
+Cleaned Command: nmap -sS 172.19.26.2
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-02-13 02:06 UTC
+Nmap scan report for 172.19.26.2
+Host is up (0.00036s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: 00:10:7F:94:E3:34 (Crestron Electronics)
+
+Nmap done: 1 IP address (1 host up) scanned in 4.08 seconds
+
+----------------------------------------
+
+[2025-02-13 02-27:1739413674]
+User Asked: Give me the command for listing a directory
+AI Raw Output: ```bash
+ls
+```
+Cleaned Command: ls
+Command Ouput:
+MainMenu.py
+Main.py
+__pycache__
+system_prompt.txt
+testsessionlog.txt
+
+----------------------------------------
+
+[2025-02-13 02-29:1739413752]
+User Asked: Please give me the command to ping google.com
+AI Raw Output: ```bash
+ping google.com
+```
+Cleaned Command: ping google.com
+Command Ouput:
+Command not allowed for Security Reasons
+----------------------------------------
+
+[2025-02-13 02-32:1739413965]
+User Asked: Command to figure out what user you are.
+AI Raw Output: ```bash
+whoami
+id
+hostname
+uname -a
+cat /etc/os
+Cleaned Command: whoami id hostname uname -a cat /etc/os
+Command Ouput:
+whoami: invalid option -- 'a'
+Try 'whoami --help' for more information.
+
+----------------------------------------
+
+[2025-02-14 17-05:1739552748]
+User Asked: What's the command to print my working directory
+AI Raw Output: The command to print your current working directory is `pwd`. It stands for "print working directory
+Cleaned Command: The command to print your current working directory is `pwd`. It stands for "print working directory
+Command Ouput:
+Command not allowed for Security Reasons
+----------------------------------------
+
+[2025-02-14 17-06:1739552808]
+User Asked: how do i find my ip address 
+AI Raw Output: ```bash
+ip addr show | grep inet | awk '{print $2}' | cut -
+Cleaned Command: ip addr show
+Command Ouput:
+Command not allowed for Security Reasons
+----------------------------------------
+
+[2025-02-14 17-08:1739552883]
+User Asked: whats the command to lists all things in a directory
+AI Raw Output: ```bash
+ls
+```
+Cleaned Command: ls
+Command Ouput:
+MainMenu.py
+Main.py
+__pycache__
+system_prompt.txt
+testsessionlog.txt
+
+----------------------------------------
+
+[2025-02-14 18-02:1739556131]
+User Asked: whats the command to print my working directory
+AI Raw Output: ```bash
+pwd
+```
+Cleaned Command: pwd
+Command Ouput:
+('/home/mlserver/BC/Scripts\n', 'Executed')
+----------------------------------------
+
+[2025-02-19 17-42:1739986964]
+User Asked: What is the command to print my working directory?
+AI Raw Output: To print your current working directory in Linux, use the `pwd` (print working directory)
+Cleaned Command: To print your current working directory in Linux, use the `pwd` (print working directory)
+Command Ouput:
+('Denied', 'Command not allowed for Security Reasons.', 'To Allow this command Please add it to either the WHITELIST or GREYLIST')
+----------------------------------------
+
+[2025-02-19 17-46:1739987171]
+User Asked: What is the command to list files
+AI Raw Output: YES
+Cleaned Command: YES
+Command Ouput:
+('Denied', 'Command not allowed for Security Reasons.', 'To Allow this command Please add it to either the WHITELIST or GREYLIST')
+----------------------------------------
+
+[2025-02-19 17-50:1739987443]
+User Asked: What is the command to list files
+AI Raw Output: The command to list files in Linux terminal is `ls`. It lists all the files and directories within
+Cleaned Command: The command to list files in Linux terminal is `ls`. It lists all the files and directories within
+Command Ouput:
+('Denied', 'Command not allowed for Security Reasons.', 'To Allow this command Please add it to either the WHITELIST or GREYLIST')
+----------------------------------------
+
+[2025-02-19 17-51:1739987519]
+User Asked: what is the command to change directory to /home
+AI Raw Output: ```bash
+cd /home
+```
+Cleaned Command: cd /home
+Command Ouput:
+("[Errno 2] No such file or directory: 'cd'", 'Execution Failed')
+----------------------------------------
+
+[2025-02-19 18-05:1739988304]
+User Asked: whats the command to list all files in the directory?
+AI Raw Output: ```bash
+ls
+```
+
+This is a direct response without any further details or explanations
+Cleaned Command: ls ``` This is a direct response without any further details or explanations
+Command Ouput:
+ls: cannot access '```': No such file or directory
+ls: cannot access 'This': No such file or directory
+ls: cannot access 'is': No such file or directory
+ls: cannot access 'a': No such file or directory
+ls: cannot access 'direct': No such file or directory
+ls: cannot access 'response': No such file or directory
+ls: cannot access 'without': No such file or directory
+ls: cannot access 'any': No such file or directory
+ls: cannot access 'further': No such file or directory
+ls: cannot access 'details': No such file or directory
+ls: cannot access 'or': No such file or directory
+ls: cannot access 'explanations': No such file or directory
+
+----------------------------------------
+
+[2025-02-19 18-11:1739988672]
+User Asked: whats the command to list all files.
+AI Raw Output: ```bash
+ls
+```
+Cleaned Command: ls
+Command Ouput:
+Main
+MainMenu.py
+Main.py
+__pycache__
+testsessionlog.txt
+
+----------------------------------------
+
+[2025-02-19 18-12:1739988754]
+User Asked: with the last output give me a command to run "MainMenu.py" with python3
+AI Raw Output: ```bash
+ls # List all files in current directory
+df -h # Check disk space usage
+Cleaned Command: ls # List all files in current directory df -h # Check disk space usage
+Command Ouput:
+ls: cannot access '#': No such file or directory
+ls: cannot access 'List': No such file or directory
+ls: cannot access 'all': No such file or directory
+ls: cannot access 'files': No such file or directory
+ls: cannot access 'in': No such file or directory
+ls: cannot access 'current': No such file or directory
+ls: cannot access 'directory': No such file or directory
+ls: cannot access 'df': No such file or directory
+ls: cannot access '#': No such file or directory
+ls: cannot access 'Check': No such file or directory
+ls: cannot access 'disk': No such file or directory
+ls: cannot access 'space': No such file or directory
+ls: cannot access 'usage': No such file or directory
+
+----------------------------------------
+
+[2025-02-19 18-17:1739989073]
+User Asked: what is the command to list files
+AI Raw Output: ```bash
+ls
+```
+Cleaned Command: ls
+Command Ouput:
+Main
+MainMenu.py
+Main.py
+__pycache__
+testsessionlog.txt
+
+----------------------------------------
+
+[2025-02-19 18-18:1739989131]
+User Asked: What is the command to change to the /home directory
+AI Raw Output: To change to the `/home` directory, you would use the `cd` (change directory)
+Cleaned Command: To change to the `/home` directory, you would use the `cd` (change directory)
+Command Ouput:
+('Denied', 'Command not allowed for Security Reasons.', 'To Allow this command Please add it to either the WHITELIST or GREYLIST')
+----------------------------------------
+
+[2025-02-19 18-22:1739989327]
+User Asked: What is the command to print my working directory?
+AI Raw Output: ```bash
+pwd
+```
+Cleaned Command: pwd
+Command Ouput:
+/home/mlserver/BC/Scripts
+
+----------------------------------------
+
+[2025-02-19 18-23:1739989397]
+User Asked: what is the command to change directory to /etc
+AI Raw Output: The command to change directory to `/etc` is `cd /etc`. This will take you directly
+Cleaned Command: The command to change directory to `/etc` is `cd /etc`. This will take you directly
+Command Ouput:
+('Denied', 'Command not allowed for Security Reasons.', 'To Allow this command Please add it to either the WHITELIST or GREYLIST')
+----------------------------------------
+
+[2025-02-19 18-33:1739990036]
+User Asked: what is the command to print my working directory
+AI Raw Output: ```bash
+pwd
+```
+Cleaned Command: pwd
+Command Ouput:
+/home/mlserver/BC/Scripts
+
+----------------------------------------
+
+[2025-02-19 18-34:1739990097]
+User Asked: what is the command to change to /home directory
+AI Raw Output: To change to /home directory you can use the following command:
+```bash
+cd ~/
+Cleaned Command: To change to /home directory you can use the following command: ```bash cd ~/
+Command Ouput:
+('Denied', 'Command not allowed for Security Reasons.', 'To Allow this command Please add it to either the WHITELIST or GREYLIST')
+----------------------------------------
+
+[2025-02-19 19-03:1739991825]
+User Asked: what is the command to print my working directory
+AI Raw Output: ```bash
+pwd
+```
+Cleaned Command: pwd
+Command Ouput:
+/home/mlserver/BC/Scripts
+
+----------------------------------------
+
+[2025-02-19 19-05:1739991916]
+User Asked: What is the command to change to the /home directory
+AI Raw Output: ```bash
+cd /home/mlserver/BC/Scripts && cd .. && pwd
+Cleaned Command: cd /home/mlserver/BC/Scripts && cd .. && pwd
+Command Ouput:
+("[Errno 2] No such file or directory: 'cd'", 'Execution Failed')
+----------------------------------------
+
+[2025-02-19 19-09:1739992198]
+User Asked: What is the command to changeto the /hom edirectory
+AI Raw Output: ```bash
+cd ~/home
+```
+Cleaned Command: cd ~/home
+Command Ouput:
+("[Errno 2] No such file or directory: 'cd'", 'Execution Failed')
+----------------------------------------
+
+[2025-02-19 19-13:1739992385]
+User Asked: what is the command to scan 8.8.8.8 with nmap
+AI Raw Output: nmap 8.8.8.8
+Cleaned Command: nmap 8.8.8.8
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-02-19 19:13 UTC
+Nmap scan report for dns.google (8.8.8.8)
+Host is up (0.0016s latency).
+Not shown: 996 filtered ports
+PORT    STATE  SERVICE
+53/tcp  open   domain
+139/tcp closed netbios-ssn
+443/tcp open   https
+445/tcp closed microsoft-ds
+
+Nmap done: 1 IP address (1 host up) scanned in 4.94 seconds
+
+----------------------------------------
+
+[2025-02-19 19-15:1739992509]
+User Asked: what is the command to print my current directory
+AI Raw Output: ```bash
+ls # List all files in current directory
+df -h # Show disk usage with
+Cleaned Command: ls # List all files in current directory df -h # Show disk usage with
+Command Ouput:
+ls: cannot access '#': No such file or directory
+ls: cannot access 'List': No such file or directory
+ls: cannot access 'all': No such file or directory
+ls: cannot access 'files': No such file or directory
+ls: cannot access 'in': No such file or directory
+ls: cannot access 'current': No such file or directory
+ls: cannot access 'directory': No such file or directory
+ls: cannot access 'df': No such file or directory
+ls: cannot access '#': No such file or directory
+ls: cannot access 'Show': No such file or directory
+ls: cannot access 'disk': No such file or directory
+ls: cannot access 'usage': No such file or directory
+ls: cannot access 'with': No such file or directory
+
+----------------------------------------
+
+[2025-02-21 17-01:1740157269]
+User Asked: what is the command to print my working directory
+AI Raw Output: ```bash
+pwd
+```
+Cleaned Command: pwd
+Command Ouput:
+/home/mlserver/BC/Scripts
+
+----------------------------------------
+
+[2025-02-21 17-05:1740157532]
+User Asked: what is the command to change to the /home directory
+AI Raw Output: cd /home
+Cleaned Command: cd /home
+Command Ouput:
+("[Errno 2] No such file or directory: 'cd'", 'Execution Failed')
+----------------------------------------
+
+[2025-02-21 17-07:1740157663]
+User Asked: what is the command to tell what user I am?
+AI Raw Output: userid
+
+This will return your username, which is also your login name and primary group ID
+Cleaned Command: userid This will return your username, which is also your login name and primary group ID
+Command Ouput:
+('Denied', 'Command not allowed for Security Reasons.', 'To Allow this command Please add it to either the WHITELIST or GREYLIST')
+----------------------------------------
+
+[2025-02-21 17-10:1740157816]
+User Asked: what is the command to print my working directory
+AI Raw Output: ```bash
+pwd
+```
+Cleaned Command: pwd
+Command Ouput:
+/home/mlserver/BC/Scripts
+
+----------------------------------------
+
+[2025-02-21 17-11:1740157918]
+User Asked: I want to un a port scan on the IP address 8.8.8.8 and only scan the first 1024 ports. How do I do this?
+AI Raw Output: ```bash
+nmap -p 1-1024 8.8.8
+Cleaned Command: nmap -p 1-1024 8.8.8
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-02-21 17:11 UTC
+Nmap scan report for 8.8.8 (8.8.0.8)
+Host is up (0.00099s latency).
+Not shown: 1022 filtered ports
+PORT    STATE  SERVICE
+139/tcp closed netbios-ssn
+445/tcp closed microsoft-ds
+
+Nmap done: 1 IP address (1 host up) scanned in 5.20 seconds
+
+----------------------------------------
+
+[2025-02-21 17-41:1740159712]
+User Asked: what is the command to print my working directory
+AI Raw Output: ```bash
+pwd
+cd /etc
+nmap -p 1-102
+Cleaned Command: pwd cd /etc nmap -p 1-102
+Command Ouput:
+pwd: invalid option -- 'p'
+Try 'pwd --help' for more information.
+
+----------------------------------------
+
+[2025-02-21 17-47:1740160031]
+User Asked: what is the command to print my working directory?
+AI Raw Output: ```bash
+pwd
+```
+Cleaned Command: pwd
+Command Ouput:
+/home/mlserver/BC/Scripts
+
+----------------------------------------
+
+[2025-02-21 17-50:1740160225]
+User Asked: perform an nmap scan on the ip address 8.8.8.8
+AI Raw Output: ```bash
+nmap -p- 8.8.8.8
+```
+Cleaned Command: nmap -p- 8.8.8.8
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-02-21 17:48 UTC
+Nmap scan report for dns.google (8.8.8.8)
+Host is up (0.0017s latency).
+Not shown: 65530 filtered ports
+PORT    STATE  SERVICE
+53/tcp  open   domain
+139/tcp closed netbios-ssn
+443/tcp open   https
+445/tcp closed microsoft-ds
+853/tcp open   domain-s
+
+Nmap done: 1 IP address (1 host up) scanned in 104.34 seconds
+
+----------------------------------------
+
+[2025-02-21 17-52:1740160341]
+User Asked: how do I determine what user I am on the system?
+AI Raw Output: ```bash
+whoami
+```
+This command will print out your username, which is also known
+Cleaned Command: whoami ``` This command will print out your username, which is also known
+Command Ouput:
+whoami: extra operand ‘```’
+Try 'whoami --help' for more information.
+
+----------------------------------------
+
+[2025-02-21 18-33:1740162788]
+User Asked: How do I tell what user I am?
+AI Raw Output: ```bash
+whoami
+```
+Cleaned Command: whoami
+Command Ouput:
+root
+
+----------------------------------------
+
+[2025-02-21 18-34:1740162854]
+User Asked: how do I get to the /home directory?
+AI Raw Output: cd ~/
+
+This will change your current working directory to `/home`. The `~`
+Cleaned Command: cd ~/ This will change your current working directory to `/home`. The `~`
+Command Ouput:
+("[Errno 2] No such file or directory: 'cd'", 'Execution Failed')
+----------------------------------------
+
+[2025-02-21 18-38:1740163115]
+User Asked: how do I determine what user I am?
+AI Raw Output: ```bash
+whoami
+```
+Cleaned Command: whoami
+Command Ouput:
+root
+
+----------------------------------------
+
+[2025-02-21 18-44:1740163459]
+User Asked: how do I figure out what user I am?
+AI Raw Output: ```bash
+whoami
+```
+Cleaned Command: whoami
+Command Ouput:
+root
+
+----------------------------------------
+
+[2025-02-21 18-45:1740163547]
+User Asked: what is the permissions on the directory /home?
+AI Raw Output: ```bash
+ls -ld /home
+```
+This will list the details of the `/home
+Cleaned Command: ls -ld /home ``` This will list the details of the `/home
+Command Ouput:
+drwxr-xr-x 3 root root 4096 Sep 27 22:53 /home
+
+----------------------------------------
+
+[2025-02-21 18-49:1740163780]
+User Asked: how do I port scan 8.8.8.8?
+AI Raw Output: ```bash
+nmap -p 1-1024 8.8.8
+Cleaned Command: nmap -p 1-1024 8.8.8
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-02-21 18:49 UTC
+Nmap scan report for 8.8.8 (8.8.0.8)
+Host is up (0.00062s latency).
+Not shown: 1022 filtered ports
+PORT    STATE  SERVICE
+139/tcp closed netbios-ssn
+445/tcp closed microsoft-ds
+
+Nmap done: 1 IP address (1 host up) scanned in 4.75 seconds
+
+----------------------------------------
+
+[2025-02-21 18-51:1740163893]
+User Asked: 
+AI Raw Output: 
+Cleaned Command: 
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-02-21 18:49 UTC
+Nmap scan report for 8.8.8 (8.8.0.8)
+Host is up (0.00062s latency).
+Not shown: 1022 filtered ports
+PORT    STATE  SERVICE
+139/tcp closed netbios-ssn
+445/tcp closed microsoft-ds
+
+Nmap done: 1 IP address (1 host up) scanned in 4.75 seconds
+
+----------------------------------------
+
+[2025-02-24 16-56:1740416204]
+User Asked: I want to send a TCP SYN scan to 8.8.8.8. This scan should be stealthy
+AI Raw Output: ```bash
+nmap -sS -p- 8.8.8.8
+Cleaned Command: nmap -sS -p- 8.8.8.8
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-02-24 16:55 UTC
+Nmap scan report for dns.google (8.8.8.8)
+Host is up (0.0010s latency).
+Not shown: 65530 filtered ports
+PORT    STATE  SERVICE
+53/tcp  open   domain
+139/tcp closed netbios-ssn
+443/tcp open   https
+445/tcp closed microsoft-ds
+853/tcp open   domain-s
+
+Nmap done: 1 IP address (1 host up) scanned in 104.00 seconds
+
+----------------------------------------
+
+[2025-02-24 16-59:1740416390]
+User Asked: how do I view my working directory?
+AI Raw Output: ```bash
+pwd
+```
+This is a valid Linux command that prints the current working directory
+Cleaned Command: pwd ``` This is a valid Linux command that prints the current working directory
+Command Ouput:
+/home/mlserver/BC/Scripts
+
+----------------------------------------
+
+[2025-02-24 17-22:1740417727]
+User Asked: how to a do a TCP SYN scan stealthily on 8.8.8.8
+AI Raw Output: To perform a TCP SYN scan stealthily (also known as "half-open" sc
+Cleaned Command: To perform a TCP SYN scan stealthily (also known as "half-open" sc
+Command Ouput:
+('Denied', 'Command not allowed for Security Reasons.', 'To Allow this command Please add it to either the WHITELIST or GREYLIST')
+----------------------------------------
+
+[2025-02-24 17-23:1740417790]
+User Asked: how do I print my working directory
+AI Raw Output: The `pwd` (print working directory) command in Linux is used to display the current working
+Cleaned Command: The `pwd` (print working directory) command in Linux is used to display the current working
+Command Ouput:
+('Denied', 'Command not allowed for Security Reasons.', 'To Allow this command Please add it to either the WHITELIST or GREYLIST')
+----------------------------------------
+
+[2025-02-24 17-31:1740418266]
+User Asked: I want t oscan the ip 8.8.8.8
+AI Raw Output: The `nmap` (Network Mapper) is a powerful tool for network discovery and security aud
+Cleaned Command: The `nmap` (Network Mapper) is a powerful tool for network discovery and security aud
+Command Ouput:
+('Denied', 'Command not allowed for Security Reasons.', 'To Allow this command Please add it to either the WHITELIST or GREYLIST')
+----------------------------------------
+
+[2025-03-05 16-56:1741193790]
+User Asked: I want you to see if the address 8.8.8.8 is up
+AI Raw Output: ```bash
+ping -c 1 8.8.8.8 | grep '6
+Cleaned Command: ping -c 1 8.8.8.8
+Command Ouput:
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=118 time=4.44 ms
+
+--- 8.8.8.8 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 4.438/4.438/4.438/0.000 ms
+
+----------------------------------------
+
+[2025-03-05 16-59:1741193997]
+User Asked: see what ports are open on 8.8.8.8
+AI Raw Output: ```bash
+nmap -p- 8.8.8.8 | grep 'open
+Cleaned Command: nmap -p- 8.8.8.8
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-03-05 16:58 UTC
+Stats: 0:00:51 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 38.84% done; ETC: 17:00 (0:01:20 remaining)
+Stats: 0:00:51 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 39.35% done; ETC: 17:00 (0:01:19 remaining)
+Stats: 0:00:51 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 39.58% done; ETC: 17:00 (0:01:18 remaining)
+Stats: 0:00:51 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 39.80% done; ETC: 17:00 (0:01:19 remaining)
+Nmap scan report for dns.google (8.8.8.8)
+Host is up (0.0022s latency).
+Not shown: 65530 filtered ports
+PORT    STATE  SERVICE
+53/tcp  open   domain
+139/tcp closed netbios-ssn
+443/tcp open   https
+445/tcp closed microsoft-ds
+853/tcp open   domain-s
+
+Nmap done: 1 IP address (1 host up) scanned in 104.07 seconds
+
+----------------------------------------
+
+[2025-03-05 17-24:1741195461]
+User Asked: I want to see what ports are pen on 192.168.1.1
+AI Raw Output: ```bash
+netstat -tulpn | grep '192\.168\.
+Cleaned Command: netstat -tulpn
+Command Ouput:
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN      2419/systemd-resolv 
+tcp        0      0 0.0.0.0:5000            0.0.0.0:*               LISTEN      42454/python3       
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      267959/sshd: /usr/s 
+tcp        0      0 127.0.0.1:11434         0.0.0.0:*               LISTEN      210033/ollama       
+tcp6       0      0 :::22                   :::*                    LISTEN      267959/sshd: /usr/s 
+udp        0      0 127.0.0.53:53           0.0.0.0:*                           2419/systemd-resolv 
+udp        0      0 172.19.26.215:68        0.0.0.0:*                           2395/systemd-networ 
+
+----------------------------------------
+
+[2025-03-05 17-25:1741195550]
+User Asked: run an aggressive nmap scan on 192.168.1.1
+AI Raw Output: ```bash
+nmap -sS -T4 -A -v 192.
+Cleaned Command: nmap -sS -T4 -A -v 192.
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-03-05 17:25 UTC
+NSE: Loaded 151 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 17:25
+Completed NSE at 17:25, 0.00s elapsed
+Initiating NSE at 17:25
+Completed NSE at 17:25, 0.00s elapsed
+Initiating NSE at 17:25
+Completed NSE at 17:25, 0.00s elapsed
+NSE: Script Post-scanning.
+Initiating NSE at 17:25
+Completed NSE at 17:25, 0.00s elapsed
+Initiating NSE at 17:25
+Completed NSE at 17:25, 0.00s elapsed
+Initiating NSE at 17:25
+Completed NSE at 17:25, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 0 IP addresses (0 hosts up) scanned in 0.34 seconds
+           Raw packets sent: 0 (0B) | Rcvd: 0 (0B)
+
+----------------------------------------
+
+[2025-03-05 17-49:1741196950]
+User Asked: run an nmap scan on 192.168.1.1
+AI Raw Output: ```bash
+nmap -p- 192.168.1.1
+Cleaned Command: nmap -p- 192.168.1.1
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-03-05 17:27 UTC
+Stats: 0:02:18 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 10.46% done; ETC: 17:49 (0:19:50 remaining)
+Stats: 0:02:18 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 10.48% done; ETC: 17:49 (0:19:48 remaining)
+Stats: 0:02:18 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 10.48% done; ETC: 17:49 (0:19:47 remaining)
+Stats: 0:03:54 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 17.75% done; ETC: 17:49 (0:18:09 remaining)
+Stats: 0:03:54 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 17.78% done; ETC: 17:49 (0:18:07 remaining)
+Stats: 0:03:55 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 17.80% done; ETC: 17:49 (0:18:05 remaining)
+Stats: 0:03:55 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 17.82% done; ETC: 17:49 (0:18:08 remaining)
+Stats: 0:03:55 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 17.85% done; ETC: 17:49 (0:18:06 remaining)
+Stats: 0:05:39 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 25.72% done; ETC: 17:49 (0:16:19 remaining)
+Stats: 0:05:39 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 25.74% done; ETC: 17:49 (0:16:21 remaining)
+Stats: 0:05:39 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 25.76% done; ETC: 17:49 (0:16:20 remaining)
+Stats: 0:05:40 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 25.78% done; ETC: 17:49 (0:16:19 remaining)
+Stats: 0:05:40 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 25.80% done; ETC: 17:49 (0:16:18 remaining)
+Stats: 0:06:31 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 29.69% done; ETC: 17:49 (0:15:28 remaining)
+Stats: 0:06:31 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 29.72% done; ETC: 17:49 (0:15:27 remaining)
+Stats: 0:06:31 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 29.73% done; ETC: 17:49 (0:15:26 remaining)
+Stats: 0:06:32 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 29.74% done; ETC: 17:49 (0:15:26 remaining)
+Stats: 0:06:32 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 29.76% done; ETC: 17:49 (0:15:25 remaining)
+Nmap scan report for 192.168.1.1
+Host is up (0.0016s latency).
+All 65535 scanned ports on 192.168.1.1 are filtered
+MAC Address: 08:00:27:BF:3C:89 (Oracle VirtualBox virtual NIC)
+
+Nmap done: 1 IP address (1 host up) scanned in 1315.71 seconds
+
+----------------------------------------
+
+[2025-03-05 17-55:1741197323]
+User Asked: perform a quick nmap scan on 192.168.1.1
+AI Raw Output: nmap -F 192.168.1.1
+
+This command
+Cleaned Command: nmap -F 192.168.1.1 This command
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-03-05 17:55 UTC
+Nmap scan report for 192.168.1.1
+Host is up (0.0017s latency).
+All 100 scanned ports on 192.168.1.1 are filtered
+MAC Address: 08:00:27:BF:3C:89 (Oracle VirtualBox virtual NIC)
+
+Nmap done: 1 IP address (1 host up) scanned in 3.46 seconds
+
+----------------------------------------
+
+[2025-03-05 17-59:1741197546]
+User Asked: test if 192.168.1.1 is up
+AI Raw Output: ```bash
+ping -c 1 192.168.1.1
+Cleaned Command: ping -c 1 192.168.1.1
+Command Ouput:
+PING 192.168.1.1 (192.168.1.1) 56(84) bytes of data.
+
+--- 192.168.1.1 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+
+----------------------------------------
+
+[2025-03-05 18-01:1741197712]
+User Asked: test if 192.168.1.1 is up
+AI Raw Output: ```bash
+ping -c 3 192.168.1.1
+Cleaned Command: ping -c 3 192.168.1.1
+Command Ouput:
+PING 192.168.1.1 (192.168.1.1) 56(84) bytes of data.
+From 192.168.1.2 icmp_seq=1 Destination Host Unreachable
+From 192.168.1.2 icmp_seq=2 Destination Host Unreachable
+From 192.168.1.2 icmp_seq=3 Destination Host Unreachable
+
+--- 192.168.1.1 ping statistics ---
+3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 2026ms
+pipe 3
+
+----------------------------------------
+
+[2025-03-05 18-06:1741198017]
+User Asked: Run an nmap -p 80 command on the ip 192.168.1.1
+AI Raw Output: ```bash
+nmap -p 80 192.168.1
+Cleaned Command: nmap -p 80 192.168.1
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-03-05 18:06 UTC
+Nmap scan report for 192.168.1 (192.168.0.1)
+Host is up (0.00064s latency).
+
+PORT   STATE    SERVICE
+80/tcp filtered http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.43 seconds
+
+----------------------------------------
+
+[2025-03-05 18-07:1741198060]
+User Asked: [A[A[A[B[B[B[B
+AI Raw Output: 
+Cleaned Command: 
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-03-05 18:06 UTC
+Nmap scan report for 192.168.1 (192.168.0.1)
+Host is up (0.00064s latency).
+
+PORT   STATE    SERVICE
+80/tcp filtered http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.43 seconds
+
+----------------------------------------
+
+[2025-03-05 18-08:1741198127]
+User Asked: Run an nmap -p 80 command on the ip 192.168.1.1
+AI Raw Output: ```bash
+nmap -p 80 192.168.1
+Cleaned Command: nmap -p 80 192.168.1
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-03-05 18:08 UTC
+Nmap scan report for 192.168.1 (192.168.0.1)
+Host is up (0.0041s latency).
+
+PORT   STATE    SERVICE
+80/tcp filtered http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.43 seconds
+
+----------------------------------------
+
+[2025-03-05 18-11:1741198283]
+User Asked: Run an nmap -p 80 command on the ip 192.168.1.1
+AI Raw Output: ```bash
+nmap -p 80 192.168.1
+Cleaned Command: nmap -p 80 192.168.1
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-03-05 18:11 UTC
+Nmap scan report for 192.168.1 (192.168.0.1)
+Host is up (0.0059s latency).
+
+PORT   STATE    SERVICE
+80/tcp filtered http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.40 seconds
+
+----------------------------------------
+
+[2025-03-05 18-16:1741198602]
+User Asked: Run an nmap -p 80 scan on the ip 192.168.1.1
+AI Raw Output: ```bash
+nmap -p 80 192.168.1
+Cleaned Command: nmap -p 80 192.168.1
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-03-05 18:16 UTC
+Nmap scan report for 192.168.1 (192.168.0.1)
+Host is up (0.00066s latency).
+
+PORT   STATE    SERVICE
+80/tcp filtered http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.40 seconds
+
+----------------------------------------
+
+[2025-03-05 18-23:1741198988]
+User Asked: Run an nmap -p 22 scan on the ip 192.168.1.1
+AI Raw Output: ```bash
+nmap -p 22 192.168.1
+Cleaned Command: nmap -p 22 192.168.1
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-03-05 18:23 UTC
+Nmap scan report for 192.168.1 (192.168.0.1)
+Host is up (0.0018s latency).
+
+PORT   STATE    SERVICE
+22/tcp filtered ssh
+
+Nmap done: 1 IP address (1 host up) scanned in 0.41 seconds
+
+----------------------------------------
+
+[2025-03-05 18-28:1741199304]
+User Asked: Run a fast nmap scan on the ip 192.168.1.1
+AI Raw Output: ```bash
+nmap -F 192.168.1.1
+Cleaned Command: nmap -F 192.168.1.1
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-03-05 18:28 UTC
+Nmap scan report for 192.168.1.1
+Host is up (0.0024s latency).
+All 100 scanned ports on 192.168.1.1 are filtered
+MAC Address: 08:00:27:BF:3C:89 (Oracle VirtualBox virtual NIC)
+
+Nmap done: 1 IP address (1 host up) scanned in 3.24 seconds
+
+----------------------------------------
+
+[2025-03-05 18-29:1741199378]
+User Asked: Run an nmap -p 22 scan on 192.168.1.1
+AI Raw Output: ```bash
+nmap -p 22 192.168.1
+Cleaned Command: nmap -p 22 192.168.1
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-03-05 18:29 UTC
+Nmap scan report for 192.168.1 (192.168.0.1)
+Host is up (0.00062s latency).
+
+PORT   STATE    SERVICE
+22/tcp filtered ssh
+
+Nmap done: 1 IP address (1 host up) scanned in 0.40 seconds
+
+----------------------------------------
+
+[2025-03-07 17-06:1741367174]
+User Asked: Run a -p 80 nmap scan on the ip 8.8.8.8
+AI Raw Output: ```bash
+nmap -p 80 8.8.8.8
+```
+Cleaned Command: nmap -p 80 8.8.8.8
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-03-07 17:06 UTC
+Nmap scan report for dns.google (8.8.8.8)
+Host is up (0.0036s latency).
+
+PORT   STATE    SERVICE
+80/tcp filtered http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.40 seconds
+
+----------------------------------------
+
+[2025-03-07 17-07:1741367236]
+User Asked: Run a fast nmpa scan on 8.8.8.8
+AI Raw Output: ```bash
+nmap -F 8.8.8.8
+```
+This is
+Cleaned Command: nmap -F 8.8.8.8 ``` This is
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-03-07 17:07 UTC
+Nmap scan report for dns.google (8.8.8.8)
+Host is up (0.0016s latency).
+Not shown: 96 filtered ports
+PORT    STATE  SERVICE
+53/tcp  open   domain
+139/tcp closed netbios-ssn
+443/tcp open   https
+445/tcp closed microsoft-ds
+
+Nmap done: 1 IP address (1 host up) scanned in 2.21 seconds
+
+----------------------------------------
+
+[2025-03-07 17-07:1741367276]
+User Asked: [A[A[B
+AI Raw Output: 
+Cleaned Command: 
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-03-07 17:07 UTC
+Nmap scan report for dns.google (8.8.8.8)
+Host is up (0.0016s latency).
+Not shown: 96 filtered ports
+PORT    STATE  SERVICE
+53/tcp  open   domain
+139/tcp closed netbios-ssn
+443/tcp open   https
+445/tcp closed microsoft-ds
+
+Nmap done: 1 IP address (1 host up) scanned in 2.21 seconds
+
+----------------------------------------
+
+[2025-03-07 17-09:1741367348]
+User Asked: Run an -p 443 nmap scan on the ip 8.8.8.8
+AI Raw Output: ```bash
+nmap -p 443 8.8.8.8
+Cleaned Command: nmap -p 443 8.8.8.8
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-03-07 17:09 UTC
+Nmap scan report for dns.google (8.8.8.8)
+Host is up (0.00084s latency).
+
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 0.22 seconds
+
+----------------------------------------
+
+[2025-03-07 17-29:1741368571]
+User Asked: Run a ast nmap scan on the ip 192.168.1.3
+AI Raw Output: ```bash
+nmap -sV 192.168.1.3
+Cleaned Command: nmap -sV 192.168.1.3
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-03-07 17:29 UTC
+Nmap scan report for 192.168.1.3
+Host is up (0.0022s latency).
+All 1000 scanned ports on 192.168.1.3 are closed
+MAC Address: 08:00:27:CE:F0:F5 (Oracle VirtualBox virtual NIC)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 0.48 seconds
+
+----------------------------------------
+
+[2025-03-07 17-35:1741368900]
+User Asked: Run a fast nmap scan on 192.168.1.3
+AI Raw Output: ```bash
+nmap -F 192.168.1.3
+Cleaned Command: nmap -F 192.168.1.3
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-03-07 17:35 UTC
+Nmap scan report for 192.168.1.3
+Host is up (0.0024s latency).
+Not shown: 98 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+MAC Address: 08:00:27:CE:F0:F5 (Oracle VirtualBox virtual NIC)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.23 seconds
+
+----------------------------------------
+
+[2025-03-07 17-40:1741369251]
+User Asked: Run a -p 80 nmap scan on 192.168.1.3
+AI Raw Output: ```bash
+nmap -p 80 192.168.1
+Cleaned Command: nmap -p 80 192.168.1
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-03-07 17:40 UTC
+Nmap scan report for 192.168.1 (192.168.0.1)
+Host is up (0.00057s latency).
+
+PORT   STATE    SERVICE
+80/tcp filtered http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.42 seconds
+
+----------------------------------------
+
+[2025-03-07 17-42:1741369321]
+User Asked: Run a fast nmap scan on 192.168.1.3
+AI Raw Output: ```bash
+nmap -F 192.168.1.3
+Cleaned Command: nmap -F 192.168.1.3
+Command Ouput:
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-03-07 17:42 UTC
+Nmap scan report for 192.168.1.3
+Host is up (0.0030s latency).
+Not shown: 98 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+MAC Address: 08:00:27:CE:F0:F5 (Oracle VirtualBox virtual NIC)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+
+----------------------------------------
+
+[2025-03-10 17-31:1741627888]
+User Asked: write hello to the screen
+AI Raw Output: ```bash
+echo "hello"
+```
+Cleaned Command: echo "hello"
+Command Ouput:
+hello
+
+----------------------------------------
