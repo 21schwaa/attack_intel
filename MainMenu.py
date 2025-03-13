@@ -2,6 +2,10 @@ import os
 import pyfiglet
 import subprocess
 from colorama import Fore, Style, init
+from InteractiveMode import run_IA_model
+from AnalysisMode import run_analysis_mode
+from Utils import intial_log
+#from Config import MODEL_DIR
 
 # Initialize colorama
 init(autoreset=True)
@@ -41,7 +45,7 @@ menu_title = Fore.LIGHTYELLOW_EX + menu + Style.RESET_ALL
 selected_model = "WhiteRabbitNeo"
 
 #Model Directory
-MODEL_DIR = "/home/mlserver/BC/Models"
+#MODEL_DIR = "/home/mlserver/BC/Models"
 # Menu options
 menu_options = {
     "1": "Run AI Powered Interactive Scan",
@@ -116,18 +120,22 @@ def display_menu():
     print("\n")  
 
 def main():
+    
     global selected_model  # Allow modification of the model name
     while True:
         display_menu()
+        intial_log()
         choice = input(Fore.LIGHTWHITE_EX + "Select an option: " + Style.RESET_ALL).strip()
 
         if choice == "1":
             print(Fore.LIGHTWHITE_EX + "\nStarting AI Powered Interactive Shell\n" + Style.RESET_ALL)
-            subprocess.run(["python3", "Main.py"])
+            run_IA_model()
         elif choice == "2":
-            print(Fore.LIGHTWHITE_EX + "\nGenerating Pen Test Report...\n" + Style.RESET_ALL)
+            print(Fore.LIGHTWHITE_EX + "\nRunning Analysis Mode...\n" + Style.RESET_ALL)
+            run_analysis_mode()
         elif choice == "3":
-            print(Fore.LIGHTWHITE_EX + "\nExporting Findings...\n" + Style.RESET_ALL)
+            print(Fore.LIGHTWHITE_EX + "\nWrite Report...\n" + Style.RESET_ALL)
+            #write report function
         elif choice == "4":
             selected_model = switch_model()
         elif choice == "5":
