@@ -7,7 +7,7 @@ import shlex
 import getpass
 from Config import WHITELIST, Log_File
 
-LOG_DIR = "/home/mlserver/BC/Logs"
+LOG_DIR = "/home/mlserver/BC/Logs/"
 LOG_FILE = None
 LOG_MODE = None
 LOG_USER = None
@@ -41,7 +41,7 @@ def intial_log():
     global LOG_MODE, LOG_FILE, LOG_USER
 
     LOG_USER = getpass.getuser()
-                            
+    os.makedirs(LOG_DIR, exist_ok=True)                        
 
 #ensuring the log path exists
     if not os.path.exists(LOG_DIR):
@@ -53,16 +53,14 @@ def intial_log():
 
     while True:
         user_choice = input ("\nWould you like to create a new log file?(yes/no)").strip().lower()
+
         if user_choice in ["yes", "y"]:
-
             timestamp = datetime.datetime.now().strftime("%m-%d-%Y_%H-%M-%s")
-            LOG_FILE = os.path.join(LOG_DIR,f"log_{timestamp}.txt")
-
-            with open(Log_File, "w", encoding="utf-8")as file:
-                file.write(f"New log file created by {LOG_USER} on {datetime.datetime.now().strftime('%m-%d-%Y %H:%M:%S')}\n")
-            print("New Log File Created")
+            filename = f"{LOG_USER}_log_{timestamp}.txt"
+            LOG_FILE = os.path.join(LOG_DIR, filename)
             LOG_MODE = "w"
-            break
+            print("New Log File Created at: {LOG_FILE}"
+
         elif user_choice in ["no", "n"]:
             existing_logs = sorted(os.listdir(LOG_DIR), reverse = True)
             if existing_logs:
@@ -71,17 +69,27 @@ def intial_log():
                 LOG_MODE = "a"
             else:
                 print("No Exisitng Log File Found, Creating a new one......")
-                intial_log()
-            break
-
         else:
             print("Invalid Input: Please Type 'Yes' or 'No' ")
 
+def create_log
+    #actually writes to log file
+    global LOG_FILE, LOG_MODE, LOG_USER
+    if not LOG_FILE or not LOG_MODE != "w":
+        timestamp = datetime.datetime.now().strftime("%m-%d-%Y_%H-%M-%s")
+        with open(LOG_FILE, "w", encoding="utf-8") as file:
+            file.write(f"New log started by {LOG_USER} on {timesamp}\n"
+        print(f"Log File created: {LOG_FILE}")
+
+
 def log_session(user_question,raw_command,cleaned_command,output):
     #Logs user input, AI response, and command exection ouputs"
-    global LOG_MODE
-    if LOG_MODE is None:
-        intial_log()
+    global LOG_MODE, LOG_FILE, LOG_USER
+    if not LOG_FILE or not LOG_MODE:
+        print("Logging has not been initialized.")
+        return
+
+    intial_log()
 
 
     timestamp = datetime.datetime.now().strftime("%m-%d-%Y %H:%M:%S")
@@ -93,6 +101,6 @@ def log_session(user_question,raw_command,cleaned_command,output):
             f"Command Output:\n{output}\n"
             f"{'-' * 40}\n"
     )
-    with open (Log_File, LOG_MODE, encoding="utf-8")as log_file:
+    with open (LOG_FILE, "a", encoding="utf-8")as log_file:
         log_file.write(log_entry)
 
