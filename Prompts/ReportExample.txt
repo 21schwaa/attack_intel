@@ -1,21 +1,58 @@
 === PENETRATION TEST REPORT TEMPLATE ===
 
 1. Executive Summary
-[Your Response Here]
+Brief overview of the purpose, scope, and general results of the test.
+
+Example:
+"This report outlines the findings of a passive reconnaissance test performed on ExampleCorp. The objective was to evaluate publicly available information that could be used in a cyberattack. While no critical vulnerabilities were discovered, several exposed subdomains and employee emails were identified."
+
+---
 
 2. Scope & Methodology
-[Your Response Here]
+Explain what was tested and how — include tools and phases.
+
+Example:
+"The test focused on passive reconnaissance using tools such as Shodan, theHarvester, and WHOIS. No active scanning or system probing was performed. The methodology followed OSINT-based enumeration and threat modeling to identify publicly available organizational data."
+
+---
 
 3. Key Findings
-[Your Response Here]
+Summarize what was found, why it's important, and potential impact.
+
+Example:
+"Three open-facing login pages were discovered. Additionally, 24 subdomains were enumerated, two of which pointed to legacy systems. Employee emails were also retrievable from social media and third-party job boards, increasing risk of phishing."
+
+---
 
 4. Technical Details
-[Your Response Here]
+For each key finding, show the command used and why it's significant.
+
+Example:
+Command:
+`theHarvester -d examplecorp.com -b all`
+
+Summary:
+"This tool identified 12 email addresses, including multiple from the HR and IT departments."
+
+Insight:
+"The exposure of departmental email addresses allows for targeted phishing and whaling attacks."
+
+---
 
 5. Recommendations
-[Your Response Here]
+Give actionable, practical fixes or improvements.
+
+Example:
+- Remove unused subdomains and enforce wildcard DNS cleanup.
+- Mask or limit employee contact details on external platforms.
+- Implement a quarterly OSINT audit policy.
+
+---
 
 6. Conclusion
-[Your Response Here]
+Wrap up with the organization's general risk posture and next steps.
+
+Example:
+"ExampleCorp demonstrates moderate resilience to OSINT-based threats. While no critical data was exposed, the presence of legacy endpoints and open contact info poses a moderate risk. A full external penetration test is advised."
 
 --- END OF FORM ---
