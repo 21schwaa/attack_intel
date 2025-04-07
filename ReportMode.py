@@ -1,7 +1,14 @@
 # ReportFormAI.py
 import os
+import getpass
+import datetime
 from MemoryManager import MemoryManager
 from Models import load_analysis_model
+
+REPORT_DIR = "/home/mlserver/BC/Reports"
+os.makedirs(REPORT_DIR, exist_ok=True)
+
+LOG_USER = getpass.getuser()
 
 def load_report_template(template_path="report_template.txt"):
     if not os.path.exists(template_path):
@@ -40,6 +47,16 @@ Using this data, complete the following report format:
 
     print("\n📄 Final Report Output:\n")
     print(report_text)
+
+    # Create a new report file using timestamp and username
+    timestamp = datetime.datetime.now().strftime("%m-%d-%Y_%H-%M-%S")
+    report_filename = f"{LOG_USER}_report_{timestamp}.txt"
+    report_path = os.path.join(REPORT_DIR, report_filename)
+
+    with open(report_path, "w", encoding="utf-8") as f:
+        f.write(report_text)
+
+    print(f"\n[✓] Report saved to: {report_path}")
     return report_text
 
 if __name__ == "__main__":
