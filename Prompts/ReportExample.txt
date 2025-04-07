@@ -1,0 +1,21 @@
+=== PENETRATION TEST REPORT TEMPLATE ===
+
+1. Executive Summary
+[Your Response Here]
+
+2. Scope & Methodology
+[Your Response Here]
+
+3. Key Findings
+[Your Response Here]
+
+4. Technical Details
+[Your Response Here]
+
+5. Recommendations
+[Your Response Here]
+
+6. Conclusion
+[Your Response Here]
+
+--- END OF FORM ---
